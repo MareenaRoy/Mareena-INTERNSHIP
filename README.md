@@ -1,2 +1,13 @@
 # M-TASK
-Basic html based project 
+#Basic html based project .
+<html>
+<head>
+  <title>DETAILS</title>
+</head>
+<body>
+  <h2>Name:Mareena Roy</h2>
+  <h2>Course:BCA</h2>
+</body>
+  
+</html>
+
