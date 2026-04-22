@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    align-items: center;
+    background: rgb(103, 84, 60);
+}
+body{
+    margin:0px;
+    background-color: lightblue;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/071/443/048/small/serum-bottle-dropper-and-water-droplets-on-blue-background-photo.jpg);
+    background-size:cover;
+
+}
+
+.navbar a{
+    color:azure;
+    margin:0 15px;
+    font-size:15px;
+
+}
+.nav_links{
+    display:flex;
+    gap:20px;
+    list-style: none;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+/* home.css*/
+.beauty{
+    text-align: center;
+    padding:60px;
+    background: rgb(163, 89, 103);
+}
+.header{
+    text-align:center;
+    padding:50px;
+}
+/*products.css*/
+
+.product-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content: center;
+
+}
+
+.card{
+    width:220px;
+    padding:15px;
+    background:rgb(155, 176, 118) ;
+    position:relative;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+
+}
+
+.badge{
+    position: absolute;
+    top:10px;
+    left:10px;
+    background: burlywood;
+    padding:15px;
+    font-size:12px;
+
+}
+
+@media ( max-width:650px){
+    .nav_links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    .product-container{
+            flex-direction: column;
+            align-items: center;
+        
+    }
+/*contact.css*/
+.box{
+    width:300px;
+    margin:auto;
+    padding:25px;
+    border:3px dotted maroon;
+}
+input,textarea{
+    width: 100%;
+    margin:10px 0;
+    padding:10px;
+}
