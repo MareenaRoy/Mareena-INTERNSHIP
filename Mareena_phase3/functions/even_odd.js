@@ -1,11 +1,11 @@
 function even_odd(num){
-    if(num%2==0){
-        console.log("Number is even");
+    if(num%2===0){
+        return "Even";
     } else{
-        console.log("Number is odd");
+        return "Odd";
     }
 }
 
-even_odd(23);
-even_odd(44);
-even_odd(28);
+console.log(even_odd(23));
+console.log(even_odd(44));
+console.log(even_odd(28));
